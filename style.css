@@ -1,0 +1,11 @@
+.hero , .cta-box.bg-section{
+background: radial-gradient(45.15% 42.05% at 49.04% 57.08%, rgba(17, 74, 67, 0) 0.01%, #1b2e28 100%), url('/images/section-bg.svg');
+}
+
+.navbar-brand .logo{
+    width: 200px;
+}
+
+.footer-logo{
+    
+}
