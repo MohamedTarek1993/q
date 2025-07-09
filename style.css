@@ -1,11 +1,37 @@
 .hero , .cta-box.bg-section{
-background: radial-gradient(45.15% 42.05% at 49.04% 57.08%, rgba(17, 74, 67, 0) 0.01%, #1b2e28 100%), url('/images/section-bg.svg');
+background:#285044;
 }
 
 .navbar-brand .logo{
-    width: 200px;
+    width: 120px;
 }
 
 .footer-logo{
     
+}
+.main-footer.bg-section{
+    background: #285044;
+    margin-bottom: 0px;
+}
+
+.expertise-list-item .expertise-list-content p::before{
+   content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: url(../images/icon-sub-heading-primary.svg) no-repeat;
+    background-position: left center;
+    background-size: cover;
+    width: 14px;
+    height: 14px;
+}
+.expertise-list-content p{
+    padding-left: 20px;
+    position: relative;
+}
+.footer-copyright {
+    border-top: 1px solid var(--dark-divider-color);
+    padding: 28px 0;
+    margin-top: 16px;
 }
