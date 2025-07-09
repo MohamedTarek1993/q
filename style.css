@@ -35,3 +35,13 @@ background:#285044;
     padding: 28px 0;
     margin-top: 16px;
 }
+header.main-header{
+    background: #fff;
+}
+.navbar-nav .nav-item .nav-link {
+    color: #285044;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0 20px;
+
+}
