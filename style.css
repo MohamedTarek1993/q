@@ -6,8 +6,8 @@ background:#285044;
     width: 120px;
 }
 
-.footer-logo{
-    
+.footer-logo img {
+    max-width: 120px;
 }
 .main-footer.bg-section{
     background: #285044;
